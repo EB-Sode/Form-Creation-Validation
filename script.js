@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function() {
             messages.push("Your password is not long enough")
         }
 
-        feedbackDiv.style.display = block;
+        feedbackDiv.style.display = 'block';
 
         if(isValid){
             feedbackDiv.textContent = "Registration successful!";
